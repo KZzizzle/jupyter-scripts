@@ -1,0 +1,9 @@
+
+# osparc-simcore packages frozen at https://github.com/ITISFoundation/osparc-simcore/tree/cfdf4f86d844ebb362f4f39e9c6571d561b72897
+
+
+simcore-service-library @ git+https://github.com/ITISFoundation/osparc-simcore.git@cfdf4f86d844ebb362f4f39e9c6571d561b72897#egg=simcore-service-library&subdirectory=packages/service-library
+simcore-models-library @ git+https://github.com/ITISFoundation/osparc-simcore.git@cfdf4f86d844ebb362f4f39e9c6571d561b72897#egg=simcore-models-library&subdirectory=packages/models-library
+simcore-sdk @ git+https://github.com/ITISFoundation/osparc-simcore.git@cfdf4f86d844ebb362f4f39e9c6571d561b72897#egg=simcore-sdk&subdirectory=packages/simcore-sdk
+simcore-service-storage-sdk @ git+https://github.com/ITISFoundation/osparc-simcore.git@cfdf4f86d844ebb362f4f39e9c6571d561b72897#egg=simcore-service-storage-sdk&subdirectory=services/storage/client-sdk/python
+simcore-postgres-database @ git+https://github.com/ITISFoundation/osparc-simcore.git@cfdf4f86d844ebb362f4f39e9c6571d561b72897#egg=simcore-postgres-database&subdirectory=packages/postgres-database

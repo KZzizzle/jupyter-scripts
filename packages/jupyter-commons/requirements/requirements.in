@@ -1,0 +1,17 @@
+#
+# NOTE: This is installed on top of jupyter/minimal-notebook
+#
+#  docker run -it  jupyter/minimal-notebook:dc9744740e12 pip freeze >jupyter-minimal-dc9744740e12.txt
+#
+--constraint jupyter-minimal-dc9744740e12.txt
+
+dataclasses~=0.6.0
+jupyterlab==2.0.1
+
+#
+# osparc-simcore packages frozen at https://github.com/ITISFoundation/osparc-simcore/tree/cfdf4f86d844ebb362f4f39e9c6571d561b72897
+#
+--requirement osparc-simcore.txt
+
+# new tools
+watchdog
